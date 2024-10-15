@@ -1,0 +1,9 @@
+<div class="task-list mt-5 pb-5 ">
+    <h2 class="bg-black bg-opacity-50 py-2 mt-1 text-white">Task List</h2>
+    <div class="py-2" *ngFor="let task of tasks">
+      <app-task-item [task]="task" [onToggle]="toggleTaskCompletion.bind(this)"></app-task-item>
+    </div>
+  </div>
+  
+  
+  

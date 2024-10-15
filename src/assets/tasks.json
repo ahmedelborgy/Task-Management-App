@@ -1,0 +1,6 @@
+[
+    { "id": 1, "title": "Task 1: Learn Angular", "completed": false },
+    { "id": 2, "title": "Task 2: Build Task List", "completed": true },
+    { "id": 3, "title": "Task 3: Test Application", "completed": true }
+  ]
+  
